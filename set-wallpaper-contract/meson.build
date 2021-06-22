@@ -15,7 +15,7 @@ wallpaper_contract = configure_file(
 
 executable(
     contract_exec_name,
-    'set-wallpaper.vala',
+    'SetWallpaper.vala',
     dependencies: [
         glib_dep,
         gio_dep,
